@@ -1,0 +1,17 @@
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    /* position: absolute;
+    top: 0;
+    left: calc(100vw - 220px); */
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.sidebar button {
+    position: absolute;
+    right: 0;
+}
