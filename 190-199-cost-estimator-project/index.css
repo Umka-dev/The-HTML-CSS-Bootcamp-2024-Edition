@@ -6,15 +6,54 @@ body {
     align-items: center;
     padding: 32px;
     color: rgb (44, 44, 44);
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
     color: rgb(83, 49, 156);
-    font-family: "Open Sans", sans-serif;
 }
 
 .container {
     background-color: white;
     width: 100%;
     max-width: 900px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 64px 64px 64px;
+    position: relative;
+}
+
+.tabs {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(200, 175, 255);
+    padding: 16px;
+}
+
+.tabs p {
+    padding: 8px;
+}
+
+.tabs p:hover {
+    color: rgb(83, 49, 156);
+    cursor: pointer;
+}
+
+.tabs p.active {
+    color: rgb(83, 49, 156);
+}
+
+.line {
+    height: 3px;
+    width: 100%;
+    top: 98px;
+    background-color: rgb(231, 231, 231);
+    position: absolute;
 }
