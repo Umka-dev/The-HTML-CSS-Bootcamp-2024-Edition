@@ -1,6 +1,9 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .project {
-  margin-top: 300px;
-  width: 300px;
+  width: 600px;
   position: relative;
 }
 
@@ -11,7 +14,7 @@
 }
 
 .project .overlay {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.3);
   position: absolute;
   top: 0;
   left: 0;
@@ -21,4 +24,14 @@
   justify-content: center;
   align-items: center;
   margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.project .overlay:hover {
+  opacity: 1;
+  cursor: pointer;
 }
