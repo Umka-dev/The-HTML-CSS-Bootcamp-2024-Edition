@@ -44,7 +44,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     padding: var(--spacing-sm) 0 0 0;
-    background-color: var(--purple-1);
+    background-color: var(--text-grey);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,6 +120,43 @@ p {
     line-height: var(--p-height);
     font-weight: 400;
     margin: var(--spacing-md) 0;
+}
+
+/* Layout Styles */
+
+.section-container {
+    width: 100%;
+    max-width: var(--standart-width);
+    /* padding: 0 var(--spacing-md); */
+}
+
+.two-column {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.two-column>.col-left {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 var(--spacing-md) 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.two-column>.col-right {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 0 0 var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 .subtitle,
