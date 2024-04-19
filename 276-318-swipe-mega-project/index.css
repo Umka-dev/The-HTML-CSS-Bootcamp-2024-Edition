@@ -846,6 +846,10 @@ p {
         width: 50%;
         margin: var(--spacing-md) 0;
     }
+
+    .virtual-events-section .swipe-sessions-card {
+        height: 420px;
+    }
 }
 
 /* MOBILE SIZE STYLES */
@@ -891,5 +895,27 @@ p {
 
     #globe {
         opacity: 10%;
+    }
+
+    .virtual-events-section .col-left {
+        padding: 0 var(--spacing-sm) 0 0;
+    }
+
+    .virtual-events-section .swipe-sessions-card {
+        width: 100%;
+        height: 380px;
+        margin: var(--spacing-lg) 0;
+    }
+
+    .virtual-events-section .swipe-sessions-card .secondary-text {
+        width: 100%;
+    }
+
+    .virtual-events-section .swipe-sessions-card .card-top {
+        height: 40%;
+    }
+
+    #sessions-logo {
+        width: 300px;
     }
 }
