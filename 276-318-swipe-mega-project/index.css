@@ -850,6 +850,19 @@ p {
     .virtual-events-section .swipe-sessions-card {
         height: 420px;
     }
+
+    .getting-started-section .two-column {
+        align-items: center;
+    }
+
+    .getting-started-section .col-right {
+        flex-wrap: wrap;
+    }
+
+    .getting-started-section .col-right .card {
+        width: 100%;
+        margin: var(--spacing-md) 0;
+    }
 }
 
 /* MOBILE SIZE STYLES */
@@ -915,7 +928,36 @@ p {
         height: 40%;
     }
 
+    .virtual-events-section .card-bottom {
+        padding: var(--spacing-xl) var(--spacing-lg);
+    }
+
     #sessions-logo {
         width: 300px;
+    }
+
+    .getting-started-section .col-right .card .icon {
+        height: 34px;
+    }
+
+    .footer .section-container {
+        flex-wrap: wrap;
+    }
+
+    .footer .col {
+        width: 50%;
+        margin: var(--spacing-md) 0;
+    }
+
+    .footer .col a {
+        font-size: 14px;
+    }
+
+    #footer-logo {
+        width: 70px;
+    }
+
+    .footer .icon-link img {
+        width: 16px;
     }
 }
