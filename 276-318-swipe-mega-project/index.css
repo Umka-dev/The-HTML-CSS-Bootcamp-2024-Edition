@@ -823,6 +823,10 @@ p {
         transform: translateX(32px);
     }
 
+    .partners-grid {
+        margin: 0 0 var(--spacing-xl) 0;
+    }
+
     .partners-grid img {
         width: 100%;
         height: auto;
@@ -887,6 +891,14 @@ p {
     .hero .hero-phone {
         height: 460px;
         transform: translateX(32px);
+    }
+
+    .hero .button-container button:nth-of-type(2) {
+        margin: 0;
+    }
+
+    .partners-grid {
+        margin: 0 0 var(--spacing-lg) 0;
     }
 
     .unified-platform-section {
@@ -997,6 +1009,10 @@ p {
 
     .hero .hero-phone-container {
         display: none;
+    }
+
+    .partners-section {
+        margin: var(--spacing-lg) 0;
     }
 
     .partners-grid {
